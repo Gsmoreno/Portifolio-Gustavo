@@ -1,0 +1,3087 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+html {
+    width: 100%;
+
+}
+
+
+body {
+    overflow-x: hidden;
+    height: 100%;
+}
+
+
+
+.fundoFoto {
+    filter: brightness(80%);
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 80%;
+    display: table;
+    width: 100%;
+    height: 100%;
+    padding: 100px 0;
+    background-attachment: fixed;
+    
+}
+
+.fundoRosa {
+    background-color: #121212;
+    height: 128vh;
+    width: 100%;
+    
+}
+
+.bolaLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    position: absolute;
+}
+
+.frase h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.frase h2 {
+    font-family: 'Pompiere', cursive;
+    font-size: 300%;
+    margin-top: 1em;
+    color: #0F5160;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.icon img {
+    display: flex;
+    padding: 20px;
+}
+
+.alerta {
+    margin-top: 6em;
+    background-color: rgb(221, 221, 221);
+    height: 56vh;
+    width: 78vw;
+    border-radius: 20px;
+    margin-left: 10%;
+}
+
+.navzinha {
+    background-color: rgb(49, 49, 49);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 4vh;
+    font-family: 'DotGothic16', sans-serif, bold;
+    border-radius: 10px 10px 0 0;
+    color: black;
+}
+
+.navzinha p {
+    font-size: 150%;
+    margin-left: 0.5em;
+}
+
+.navzinha img{
+    margin: 0.5em;
+}
+
+
+
+.lamp img {
+    margin-top: 2em;
+    margin-left: 1em;
+}
+
+.lamp span {
+    margin-bottom: 2em;
+    font-family: 'DotGothic16', sans-serif, bold;
+}
+
+.lamp {
+    margin-bottom: 1em;
+}
+
+.text p {
+    font-family: 'DotGothic16', sans-serif, bold;
+    margin-left: 2em;
+    
+    font-size: clamp(0.85em, 0.6em + 0.45vw, 200%);
+    
+}
+
+.text {
+    border-right: black;
+    border-style: ridge;
+    margin: 2em;
+    
+}
+
+.linha1 {
+    animation: blinkCursor 1000ms steps(40) normal, typing 12000ms steps(100) normal 3s both;
+    white-space: nowrap;
+    max-width: 0vw;
+    overflow: hidden;
+}
+
+.linha2 {
+    animation: blinkCursor 1000ms steps(40) normal, typing 12000ms steps(100) normal 11s both;
+    white-space: nowrap;
+    max-width: 0vw;
+    overflow: hidden;
+}
+
+.linha3 {
+    animation: blinkCursor 1000ms steps(40) normal, typing 12000ms steps(100) normal 19s both;
+    white-space: nowrap;
+    max-width: 0vw;
+    overflow: hidden;
+}
+
+.linha4 {
+    animation: blinkCursor 1000ms steps(40) normal, typing 12000ms steps(100) normal 27s both;
+    white-space: nowrap;
+    max-width: 0vw;
+    overflow: hidden;
+}
+
+.linha5 {
+    animation: blinkCursor 1000ms steps(40) normal, typing 12000ms steps(100) normal 32s both;
+    white-space: nowrap;
+    max-width: 0vw;
+    overflow: hidden;
+}
+
+.linha6 {
+    animation: blinkCursor 1000ms steps(40) normal, typing 12000ms steps(100) normal 40s both;
+    white-space: nowrap;
+    max-width: 0vw;
+    overflow: hidden;
+}
+
+.linha7 {
+    animation: blinkCursor 1000ms steps(40) normal, typing 12000ms steps(100) normal 48s both;
+    white-space: nowrap;
+    max-width: 0vw;
+    overflow: hidden;
+}
+
+.linha8 {
+    animation: blinkCursor 1000ms steps(40) normal, typing 12000ms steps(100) normal 55s both;
+    white-space: nowrap;
+    max-width: 0vw;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    100% {
+        max-width: 100vw;
+    }
+}
+
+@keyframes blinkCursor {
+    from {
+        border-rigth-color: black
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+/* ================================MSN-INICIO======================================= */
+
+.msn {
+    /* display: flex; */
+    background-color: rgb(221, 221, 221);
+    height: 100vh;
+    width: 71vw;
+    margin-top: 5em;
+    margin-left: 14em;
+    border-radius: 10px 10px 10px 10px;
+    border-style: ridge;
+    margin-bottom: 2em;
+    border-color: #ffffff;
+}
+
+.navMsn {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 40px 40px 700px 0px;
+    height: 12vh;
+    width: 99%;
+    margin-bottom: 3em;
+    border-style: ridge;
+    
+}
+
+.navMsn p {
+    font-family: 'DotGothic16', sans-serif, bold;
+    position: relative;
+    top: 60px;
+    right: 8%;
+    color: black;
+    margin-left: 0.7em;
+    
+}
+
+.navMsn img {
+    padding: 1em;
+    position: relative;
+}
+
+.option {
+    margin-left: 9em;
+    display: flex;
+}
+
+/* ========================PRIMEIRA FORMAÇÃO-INICIO====================================*/
+
+.formacao {
+    border-right: black;
+    border-style: solid;
+    margin-left: 2em;
+    height: 36.89064558629776vh;
+    width: 52.894924946390276vw;
+    bottom: 38%;
+    border-width: 1px;
+    border-radius: 5px 5px 0 0;
+    position: relative;
+    margin-top: 6.6em;
+    max-width: 100%;
+    
+}
+
+.formacao p {
+    font-family: 'DotGothic16', sans-serif, bold;
+    margin-left: 2em;
+    
+}
+
+.formacao hr {
+    position: relative;
+    top: 2%;
+    color: rgb(0, 0, 0);
+    border-style: dashed;
+}
+
+.formacao img {
+    padding: 1em;
+}
+
+.formacao span {
+    font-family: 'DotGothic16', sans-serif, bold;
+    font-size: 15px;
+    position: relative;
+    bottom: 7%;
+    right: 0.7%;
+}
+
+.formacao h5 {
+    font-family: 'DotGothic16', sans-serif, bold;
+    font-size: 15px;
+    position: relative;
+    bottom: 15%;
+    left: 7.5%;
+}
+
+#curso {
+    position: relative;
+    bottom: 15%;
+    left: 3%;
+}
+
+#desc {
+    position: relative;
+    left: 4%;
+}
+
+.foto {
+    height: 20.421607378129117vh;
+    width: 9.292351679771265vw;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 0.5px;
+    position: relative;
+    left: 79%;
+    top: 3%;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto img {
+    
+    border-style: inset;
+    margin-bottom: 1.5em;
+    border-radius: 4px 4px 4px 4px;
+}
+
+#seta {
+    position: relative;
+    left: 92.6%;
+    bottom: 17%;
+}
+
+#setaBaixo {
+    position: relative;
+    left: 89%;
+}
+
+#descricao {
+    font-size: 13.5px;
+    position: relative;
+    left: 43%;
+    bottom: 115%;
+}
+
+.hr hr {
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.hr {
+    position: relative;
+    top: 8.5%;
+}
+
+.fundoRosa h3 {
+    font-family: 'DotGothic16', sans-serif, bold;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#ampulheta {
+    bottom: 15%;
+    position: relative;
+}
+
+#data {
+    font-family: 'DotGothic16', sans-serif, bold;
+    font-style: bold;
+    font-size: 15px;
+    position: relative;
+    bottom: 30%;
+    left: 3%;
+}
+
+#sp {
+    position: relative;
+    bottom: 30%;
+}
+
+#local {
+    position: relative;
+    bottom: 45%;
+    left: 3%;
+}
+
+/* =======================SEGUNDA FORMAÇÃO========================= */
+
+.formacaoSec {
+    border-right: black;
+    border-style: solid;
+    margin-left: 2em;
+    height: 28.985507246376812vh;
+    width: 52.894924946390276vw;
+    bottom: 38%;
+    border-width: 1px;
+    border-radius: 5px 5px 5px 5px;
+    position: relative;
+    margin-top: 6.6em;
+    
+}
+
+.formacaoSec hr {
+    position: relative;
+    top: 2%;
+    border-color: black;
+    border-style: dashed;
+    border-width: 1px;
+}
+
+.formacaoSec {
+    font-family: 'DotGothic16', sans-serif, bold;
+}
+
+.formacaoSec a {
+    color: #000000;
+}
+
+#fonte {
+    position: relative;
+    left: 4%;
+}
+
+#font {
+    position: relative;
+    left: 4%;
+    bottom: 5%;
+    font-size: 15px;
+}
+
+#hrBaixo {
+    border-style: solid;
+    position: relative;
+    top: 8%;
+}
+
+#sorriso {
+    position: relative;
+    left: 9%;
+}
+
+#down {
+    position: relative;
+    left: 10%;
+}
+
+#clip {
+    position: relative;
+    left: 15%;
+}
+
+#anex {
+    position: relative;
+    left: 15%;
+}
+
+#monta {
+    position: relative;
+    left: 22%;
+}
+
+#back {
+    position: relative;
+    left: 22%;
+}
+
+#localidade{
+    position: relative;
+    bottom: 48%;
+    left: 34%;
+}
+
+.foto2 {
+    position: relative;
+    bottom: 64.5%;
+    height: 20.421607378129117vh;
+    width: 9.292351679771265vw;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 0.5px;
+    position: relative;
+    left: 79%;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#seta2 {
+    position: relative;
+    left: 92.6%;
+    bottom: 84%;
+}
+
+#setaBaixo2 {
+    position: relative;
+    left: 89%;
+    bottom: 68%;
+}
+
+.foto2 img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: inset;
+    margin-bottom: 1.5em;
+    border-radius: 4px 4px 4px 4px;
+}
+
+#tarefa {
+    position: relative;
+    left: 52%;
+}
+
+#carinha {
+    position: relative;
+    left: 30%;
+    border-style: ridge;
+    top: 0.3em;
+}
+
+#chapeu {
+    padding: 1em;
+}
+
+#escola {
+    position: relative;
+    bottom: 18%;
+    left: 7%;
+}
+
+#certificado {
+    position: relative;
+    left: 34%;
+    bottom: 29.5%;
+}
+
+#curso2 {
+    position: relative;
+    left: 39%;
+    bottom: 42%;
+}
+
+#lembrete {
+    font-size: 15px;
+    position: relative;
+    bottom: 37%;
+    left: 1%;
+}
+
+#ampulheta2 {
+    position: relative;
+    left: 2%;
+    bottom: 27%;
+}
+
+#dataE {
+    font-size: 12px;
+    position: relative;
+    bottom: 36%;
+    left: 6%;
+}
+
+#desc2 {
+    position: relative;
+    left: 50%;
+    bottom: 30%;
+}
+
+
+
+#local1 {
+    position: relative;
+    left: 39%;
+    bottom: 59%;
+}
+
+/* ===============================FIM-FORMAÇÃO=========================*/
+
+#hrAzul {
+    border-style: solid;
+    border-color: black;
+}
+
+.fundoAzul {
+    background-color: #121212;
+    position: relative;
+    height: 185vh;
+    width: 100%;
+}
+
+.skills {
+    height: 90vh;
+    width: 90vw;
+    background-color: #171726;
+    margin-left: 5em;
+    border-style: ridge;
+    border-radius: 15px 15px 0px 0px;
+    border-color: black;
+    border-width: 2px;
+}
+
+.jogos {
+    height: 85vh;
+    width: 15vw;
+    background-color: black;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.jogos img {
+    animation: pulse 0.7s infinite;
+    animation-direction: alternate;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+}
+
+#skill {
+    font-family: 'DotGothic16', sans-serif, bold;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    color: rgb(221, 221, 221);
+}
+
+.navSteam {
+    width: 100%;
+    height: 5vh;
+    background-color: black;
+    border-radius: 15px 15px 0px 0px;
+    display: flex;
+}
+
+#setaE {
+    padding: 0.5em;
+}
+
+#setaD {
+    padding: 0.5em;
+}
+
+.navSteam p {
+    font-family: Arial, Helvetica, sans-serif, bold;
+    color: white;
+    margin-left: 2em;
+    padding-top: 0.7em;
+    position: relative;
+}
+
+#steam {
+    padding: 0.3em;
+    position: relative;
+    left: 45%;
+}
+
+.jogos p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(157, 155, 155);
+    font-size: 15px;
+    position: relative;
+    left: 25%;
+    top: 1%;
+}
+
+.jogos img {
+    position: relative;
+    top: 5%;
+    left: 5%;
+}
+
+.progress {
+    height: 1.7127799736495388vh;
+    width: 21.44388849177984vw;
+    border-radius: 5px;
+    background-color: #474849;
+    position: relative;
+    bottom: 88%;
+    left: 18%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-bottom: 3.5em;
+}
+
+.progress-done {
+    background: linear-gradient(to left, #617adf, #1e3baf);
+    border-radius: 5px;
+    opacity: 0;
+    height: 100%;
+    width: 0;
+    color: #fff;
+    transition: 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress2 {
+    height: 1.7127799736495388vh;
+    width: 21.44388849177984vw;
+    border-radius: 5px;
+    background-color: #474849;
+    position: relative;
+    bottom: 88%;
+    left: 18%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-bottom: 3em;
+}
+
+.progress-done2 {
+    background: linear-gradient(to left, #617adf, #1e3baf);
+    border-radius: 5px;
+    opacity: 0;
+    height: 100%;
+    width: 0;
+    color: #fff;
+    transition: 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress3 {
+    height: 1.7127799736495388vh;
+    width: 21.44388849177984vw;
+    border-radius: 5px;
+    background-color: #474849;
+    position: relative;
+    bottom: 88%;
+    left: 18%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-bottom: 3em;
+}
+
+.progress-done3 {
+    background: linear-gradient(to left, #617adf, #1e3baf);
+    border-radius: 5px;
+    opacity: 0;
+    height: 100%;
+    width: 0;
+    color: #fff;
+    transition: 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress4 {
+    height: 1.7127799736495388vh;
+    width: 21.44388849177984vw;
+    border-radius: 5px;
+    background-color: #474849;
+    position: relative;
+    bottom: 88%;
+    left: 18%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-bottom: 3.3em;
+}
+
+.progress-done4 {
+    background: linear-gradient(to left, #617adf, #1e3baf);
+    border-radius: 5px;
+    opacity: 0;
+    height: 100%;
+    width: 0;
+    color: #fff;
+    transition: 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress5 {
+    height: 1.7127799736495388vh;
+    width: 21.44388849177984vw;
+    border-radius: 5px;
+    background-color: #474849;
+    position: relative;
+    bottom: 88%;
+    left: 18%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-bottom: 3em;
+}
+
+.progress-done5 {
+    background: linear-gradient(to left, #617adf, #1e3baf);
+    border-radius: 5px;
+    opacity: 0;
+    height: 100%;
+    width: 0;
+    color: #fff;
+    transition: 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress6 {
+    height: 1.7127799736495388vh;
+    width: 21.44388849177984vw;
+    border-radius: 5px;
+    background-color: #474849;
+    position: relative;
+    bottom: 88%;
+    left: 18%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-bottom: 3.5em;
+}
+
+.progress-done6 {
+    background: linear-gradient(to left, #617adf, #1e3baf);
+    border-radius: 5px;
+    opacity: 0;
+    height: 100%;
+    width: 0;
+    color: #fff;
+    transition: 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress7 {
+    height: 1.7127799736495388vh;
+    width: 21.44388849177984vw;
+    border-radius: 5px;
+    background-color: #474849;
+    position: relative;
+    bottom: 88%;
+    left: 18%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-bottom: 3em;
+}
+
+.progress-done7 {
+    background: linear-gradient(to left, #617adf, #1e3baf);
+    border-radius: 5px;
+    opacity: 0;
+    height: 100%;
+    width: 0;
+    color: #fff;
+    transition: 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress8 {
+    height: 1.7127799736495388vh;
+    width: 21.44388849177984vw;
+    border-radius: 5px;
+    background-color: #474849;
+    position: relative;
+    bottom: 88%;
+    left: 18%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-bottom: 3em;
+}
+
+.progress-done8 {
+    background: linear-gradient(to left, #617adf, #1e3baf);
+    border-radius: 5px;
+    opacity: 0;
+    height: 100%;
+    width: 0;
+    color: #fff;
+    transition: 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress9 {
+    height: 1.7127799736495388vh;
+    width: 21.44388849177984vw;
+    border-radius: 5px;
+    background-color: #474849;
+    position: relative;
+    bottom: 88%;
+    left: 18%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-bottom: 3em;
+}
+
+.progress-done9 {
+    background: linear-gradient(to left, #617adf, #1e3baf);
+    border-radius: 5px;
+    opacity: 0;
+    height: 100%;
+    width: 0;
+    color: #fff;
+    transition: 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress10 {
+    height: 1.7127799736495388vh;
+    width: 21.44388849177984vw;
+    border-radius: 5px;
+    background-color: #474849;
+    position: relative;
+    bottom: 88%;
+    left: 18%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-bottom: 3.5em;
+}
+
+.progress-done10 {
+    background: linear-gradient(to left, #617adf, #1e3baf);
+    border-radius: 5px;
+    opacity: 0;
+    height: 100%;
+    width: 0;
+    color: #fff;
+    transition: 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress11 {
+    height: 1.7127799736495388vh;
+    width: 21.44388849177984vw;
+    border-radius: 5px;
+    background-color: #474849;
+    position: relative;
+    bottom: 88%;
+    left: 18%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-bottom: 3.5em;
+}
+
+.progress-done11 {
+    background: linear-gradient(to left, #617adf, #1e3baf);
+    border-radius: 5px;
+    opacity: 0;
+    height: 100%;
+    width: 0;
+    color: #fff;
+    transition: 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress12 {
+    height: 1.7127799736495388vh;
+    width: 21.44388849177984vw;
+    border-radius: 5px;
+    background-color: #474849;
+    position: relative;
+    bottom: 88%;
+    left: 18%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-bottom: 3.5em;
+}
+
+.progress-done12 {
+    background: linear-gradient(to left, #617adf, #1e3baf);
+    border-radius: 5px;
+    opacity: 0;
+    height: 100%;
+    width: 0;
+    color: #fff;
+    transition: 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#barraApi {
+    margin-bottom: 1em;
+}
+
+.lado {
+    position: relative;
+    bottom: 173%;
+    left: 48%;
+}
+
+#met {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+#metodo {
+    margin-left: 5em;
+    margin-bottom: 1em;
+    animation: pulse 0.7s infinite;
+    animation-direction: alternate;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+}
+
+#kanbanF {
+    position: relative;
+    margin-top: 1em;
+    right: 0.5%;
+}
+
+#kan {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    position: relative;
+    left: 3%;
+    top: 3em;
+}
+
+#scrum {
+    position: relative;
+    top: 3em;
+    right: 3.5%;
+}
+
+#pScrum {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    top: 1.5em;
+    left: 3%;
+    position: relative;
+}
+
+#idiomas {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: 4em;
+    left: 4%;
+}
+
+#idiomasF {
+    position: relative;
+    top: 1em;
+    left: 5.4%;
+    animation: pulse 0.7s infinite;
+    animation-direction: alternate;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+}
+
+#eua {
+    position: relative;
+    top: 5.5em;
+    right: 2%;
+}
+
+#ingles {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    top: 4em;
+    left: 4%;
+}
+
+#espanha {
+    position: relative;
+    top: 6em;
+    left: 0.5%;
+}
+
+#espanhol {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    top: 4.5em;
+    left: 4%;
+}
+
+#brasil {
+    position: relative;
+    top: 6.5em;
+    left: 0.5%;
+}
+
+#port {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    top: 5em;
+    left: 4%;
+}
+
+#certF {
+    position: relative;
+    bottom: 15em;
+    left: 25em;
+    animation: pulse 0.7s infinite;
+    animation-direction: alternate;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+}
+
+#cert {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    bottom: 11.5em;
+    left: 18.2em;
+}
+
+.idi {
+    position: relative;
+    top: 5.5em;
+}
+
+.areaCert p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+    position: relative;
+    bottom: 18em;
+    left: 22em;
+}
+
+.areaCert {
+    position: relative;
+    bottom: 7.4em;
+    left: 3%;
+}
+
+.soft {
+    height: 75vh;
+    width: 90vw;
+    right: 0.1em;
+    background-color: #2c2c33;
+    position: relative;
+    bottom: 175.5%;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.soft h2 {
+    font-family: 'DotGothic16', sans-serif, bold;
+    font-size: 20px;
+    color: rgb(221, 221, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1em;
+}
+
+#perso {
+    font-family: 'DotGothic16', sans-serif, bold;
+    font-size: 15px;
+    color: rgb(160, 157, 157);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5em;
+}
+
+#ati {
+    font-family: 'DotGothic16', sans-serif, bold;
+    font-size: 18px;
+    color: rgb(160, 157, 157);
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 2em;
+    padding-top: 0.5em;
+}
+
+#tipo {
+    font-family: 'DotGothic16', sans-serif, bold;
+    font-size: 13px;
+    color: rgb(160, 157, 157);
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 3.8em;
+    padding-top: 0.5em;
+}
+
+.personalidade {
+    position: relative;
+    top: 7%;
+}
+
+.personalidade img {
+    margin: 1em;
+}
+
+.progressP {
+    height: 1.7127799736495388vh;
+    width: 21.44388849177984vw;
+    border-radius: 5px;
+    background-color: #474849;
+    position: relative;
+    bottom: 88%;
+    left: 18%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-bottom: 3.5em;
+}
+
+.progress-doneP {
+    background-color: #51a9ab;
+    border-radius: 5px;
+    opacity: 0;
+    height: 100%;
+    width: 0;
+    color: #fff;
+    transition: 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barras {
+    position: relative;
+    bottom: 28%;
+    left: 2%;
+    margin: 0;
+}
+
+.barras p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgb(160, 157, 157);
+}
+
+#extro {
+    position: relative;
+    left: 15%;
+    bottom: 4.7em;
+}
+
+#intro {
+    position: relative;
+    bottom: 8.2em;
+    left: 43%;
+}
+
+#introP {
+    position: relative;
+    bottom: 8.2em;
+    left: 37.8%;
+}
+
+.progressE {
+    height: 1.7127799736495388vh;
+    width: 21.44388849177984vw;
+    border-radius: 5px;
+    background-color: #474849;
+    position: relative;
+    bottom: 88%;
+    left: 18%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-bottom: 3.5em;
+}
+
+.progress-doneE {
+    background-color: #e2a942;
+    border-radius: 5px;
+    opacity: 0;
+    height: 100%;
+    width: 0;
+    color: #fff;
+    transition: 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.energia {
+    position: relative;
+    bottom: 2.6em;
+}
+
+.progressN {
+    height: 1.7127799736495388vh;
+    width: 21.44388849177984vw;
+    border-radius: 5px;
+    background-color: #474849;
+    position: relative;
+    bottom: 88%;
+    left: 18%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-bottom: 3.5em;
+}
+
+.progress-doneN {
+    background-color: #56ac8a;
+    border-radius: 5px;
+    opacity: 0;
+    height: 100%;
+    width: 0;
+    color: #fff;
+    transition: 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.natureza {
+    position: relative;
+    bottom: 17.4em;
+    left: 35%;
+}
+
+.progressT {
+    height: 1.7127799736495388vh;
+    width: 21.44388849177984vw;
+    border-radius: 5px;
+    background-color: #474849;
+    position: relative;
+    bottom: 88%;
+    left: 18%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-bottom: 3.5em;
+}
+
+.progress-doneT {
+    background-color: #cfa0b6;
+    border-radius: 5px;
+    opacity: 0;
+    height: 100%;
+    width: 0;
+    color: #fff;
+    transition: 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.taticas {
+    position: relative;
+    bottom: 2.6em;
+}
+
+#introT {
+    position: relative;
+    bottom: 8.2em;
+    left: 39.7%;
+}
+
+.progressI {
+    height: 1.7127799736495388vh;
+    width: 21.44388849177984vw;
+    border-radius: 5px;
+    background-color: #474849;
+    position: relative;
+    bottom: 88%;
+    left: 18%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-bottom: 3.5em;
+}
+
+.progress-doneI {
+    background-color: #8a7298;
+    border-radius: 5px;
+    opacity: 0;
+    height: 100%;
+    width: 0;
+    color: #fff;
+    transition: 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.indentidade {
+    position: relative;
+    bottom: 23em;
+    left: 17%;
+}
+
+.habilt {
+    position: relative;
+    bottom: 109%;
+}
+
+.habilt ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #fff;
+    position: relative;
+    left: 45%;
+    margin-top: 0.5em;
+    list-style-type: circle;
+    top: 1%;
+}
+
+.soft a {
+    text-decoration: none;
+    color: #6d6d6d;
+    position: relative;
+    bottom: 149%;
+    left: 79%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+#hrPreto {
+    border-style: solid;
+    border-color: black;
+}
+
+.projetosFundo {
+    background-color: #121212;
+    height: 170vh;
+    
+}
+
+.projetos{
+    height: 170vh;
+    
+}
+
+
+.projects{
+    position: relative;
+    bottom: 31em;
+    height: 110vh;
+}
+
+
+.projetosFundo h2 {
+    font-family: 'DotGothic16', sans-serif, bold;
+    font-size: 20px;
+    color: rgb(221, 221, 221);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.verticalLine {
+    border-left: thick solid rgb(80, 80, 80);
+    color: #121212;
+    height: 150vh;
+    border-width: 3px;
+    position: relative;
+    left: 50%;
+    top: 2em;
+}
+
+#circulo {
+    width: 1.2866333095067906vw;
+    height: 2.3715415019762847vh;
+    background-color: #CA7F74;
+    margin: 50px;
+    border-radius: 50%;
+    position: relative;
+    left: 45.9%;
+    bottom: 39em;
+}
+
+.firstProject {
+    font-family: 'DotGothic16', sans-serif, bold;
+    position: relative;
+    left: 25%;
+    bottom: 44em;
+}
+
+.firstProject h1 {
+    color: #CA7F74;
+    font-size: 23px;
+    margin-left: 0.5em;
+}
+
+.firstProject h3 {
+    color: #CA7F74;
+    margin-top: 0.5em;
+    font-size: 20px;
+}
+
+.firstProject p {
+    color: white;
+    font-size: 15px;
+    position: relative;
+    right: 18%;
+}
+
+.firstProject a {
+    text-decoration: none;
+}
+
+#pqp {
+    
+    padding-left: 4em;
+}
+
+#pqp2 {
+    
+    padding-left: 0.5em;
+}
+
+#pqp3{
+    
+    padding-left: 0.5em;
+}
+
+#feito{
+    padding-left: 12em;
+}
+
+.secondProject {
+    font-family: 'DotGothic16', sans-serif, bold;
+    position: relative;
+    left: 73%;
+    bottom: 44em;
+}
+
+.secondProject h1 {
+    color: #507E83;
+    font-size: 23px;
+    margin-left: 0.5em;
+}
+
+.secondProject h3 {
+    color: #507E83;
+    margin-top: 0.5em;
+    font-size: 20px;
+    position: relative;
+    right: 0.6%;
+}
+
+.secondProject p {
+    color: white;
+    font-size: 15px;
+    position: relative;
+    right: 18%;
+}
+
+.secondProject a {
+    text-decoration: none;
+}
+
+.btn {
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    border-radius: 0.6em;
+    color: #e74c3c;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'DotGothic16', sans-serif, bold;
+    font-weight: 700;
+    position: relative;
+    right: 6.9%;
+    height: 5.270092226613966vh;
+}
+
+.btn:hover, .btn:focus {
+    color: black;
+    outline: 0;
+}
+
+.fourth {
+    border-color: #CA7F74;
+    color: #fff;
+    background-image: -webkit-linear-gradient(45deg, #CA7F74 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #CA7F74 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+    
+}
+
+#circulo2 {
+    width: 1.2866333095067906vw;
+    height: 2.3715415019762847vh;
+    background-color: #507E83;
+    margin: 50px;
+    border-radius: 50%;
+    position: relative;
+    left: 45.9%;
+    bottom: 39em;
+}
+
+.fourth:hover {
+    background-position: 0;
+}
+
+.fourth2:hover {
+    background-position: 0;
+
+}
+.fourth3:hover {
+    background-position: 0;
+}
+.fourth4:hover {
+    background-position: 0;
+}
+
+.fourthCv:hover {
+    background-position: 0;
+}
+
+.fourth2 {
+    border-color: #507E83;
+    color: #fff;
+    background-image: -webkit-linear-gradient(45deg, #507E83 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #507E83 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+    
+}
+
+.fourth3 {
+    border-color: #3C3882;
+    color: #fff;
+    background-image: -webkit-linear-gradient(45deg, #3C3882 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #3C3882 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+    
+}
+
+.fourth4 {
+    border-color: #DDAA71;
+    color: #fff;
+    background-image: -webkit-linear-gradient(45deg, #DDAA71 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #DDAA71 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+    
+}
+
+.fourthCv {
+    border-color: #31676F;
+    color: black;
+    background-image: -webkit-linear-gradient(45deg, #31676F 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #31676F 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+    position: relative;
+    left: 42%;
+    bottom: 10em;
+    
+    
+}
+
+#hrRole{
+    width: 16vw;
+    border-color:#CA7F74 ;
+    position: relative;
+    bottom: 42.8em;
+    left: 33%;
+    border-style: dashed;
+}
+
+#hrMc{
+    width: 16vw;
+    border-color:#507E83 ;
+    position: relative;
+    bottom: 42.7em;
+    left: 50%;
+    border-style: dashed;
+}
+
+#hrConect{
+    width: 16vw;
+    border-color:#3C3882 ;
+    position: relative;
+    bottom: 42.8em;
+    left: 33%;
+    border-style: dashed;
+}
+
+#hrAir{
+    width: 16vw;
+    border-color:#DDAA71;
+    position: relative;
+    bottom: 42.7em;
+    left: 50%;
+    border-style: dashed;
+}
+
+
+#circulo3 {
+    width: 1.2866333095067906vw;
+    height: 2.3715415019762847vh;
+    background-color: #3C3882;
+    margin: 50px;
+    border-radius: 50%;
+    position: relative;
+    left: 45.9%;
+    bottom: 39em;
+}
+.thirdProject {
+    font-family: 'DotGothic16', sans-serif, bold;
+    position: relative;
+    left: 25%;
+    bottom: 44em;
+}
+
+.thirdProject h1 {
+    color: #3C3882;
+    font-size: 23px;
+    margin-left: 0.5em;
+}
+
+.thirdProject h3 {
+    color: #3C3882;
+    margin-top: 0.5em;
+    font-size: 20px;
+    position: relative;
+    right: 1%;
+}
+
+.thirdProject p {
+    color: white;
+    font-size: 15px;
+    position: relative;
+    right: 13%;
+}
+
+.thirdProject a {
+    text-decoration: none;
+}
+
+#o{
+    position: relative;
+    right: 17%;
+}
+
+#oo{
+    padding-left: 5em;
+}
+
+#circulo4 {
+    width: 1.2866333095067906vw;
+    height: 2.3715415019762847vh;
+    background-color: #DDAA71;
+    margin: 50px;
+    border-radius: 50%;
+    position: relative;
+    left: 45.9%;
+    bottom: 39em;
+}
+.fourthProject {
+    font-family: 'DotGothic16', sans-serif, bold;
+    position: relative;
+    left: 73%;
+    bottom: 44em;
+}
+
+.fourthProject h1 {
+    color: #DDAA71;
+    font-size: 23px;
+    margin-left: 0.5em;
+}
+
+.fourthProject h3 {
+    color: #DDAA71;
+    margin-top: 0.5em;
+    font-size: 20px;
+    position: relative;
+    right: 1%;
+}
+
+.fourthProject p {
+    color: white;
+    font-size: 15px;
+    position: relative;
+    right: 13%;
+}
+
+.fourthProject a {
+    text-decoration: none;
+}
+
+
+
+.game{
+    height: 7.246376811594203vh;
+    width:  9.292351679771265vw;
+    background-color: #444448c1;
+    position: relative;
+    bottom: 58em;
+    left: 3%;
+    display: flex;
+    align-items: center;
+    font-family: 'Arial', sans-serif, bold;
+    color: white;
+    border-radius: 5px;
+    animation: pulse 0.7s infinite;
+    animation-direction: alternate;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+    font-size: 13px;
+    
+}
+
+.game img{
+    padding: 0.5em;
+}
+
+#hob{
+    font-family: 'DotGothic16', sans-serif, bold;
+    font-size: 15px;
+    color: rgb(160, 157, 157);
+    position: relative;
+    bottom: 51.6em;
+    left: 15%;
+    padding-top: 0.5em;
+    
+}
+
+.filme img{
+    padding: 0.5em;
+}
+
+.filme{
+    height: 7.246376811594203vh;
+    width:  9.292351679771265vw;
+    background-color: #444448c1;
+    position: relative;
+    bottom: 56em;
+    left: 3%;
+    display: flex;
+    align-items: center;
+    font-family: 'Arial', sans-serif, bold;
+    color: white;
+    border-radius: 5px;
+    animation: pulse 0.7s infinite;
+    animation-direction: alternate;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+    font-size: 13px;
+}
+
+.musica{
+    height: 7.246376811594203vh;
+    width:  9.292351679771265vw;
+    background-color: #444448c1;
+    position: relative;
+    bottom: 66.5em;
+    left: 18%;
+    display: flex;
+    align-items: center;
+    font-family: 'Arial', sans-serif, bold;
+    color: white;
+    border-radius: 5px;
+    animation: pulse 0.7s infinite;
+    animation-direction: alternate;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+    font-size: 13px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.musica img{
+    padding: 0.5em;
+}
+
+.futebol{
+    height: 7.246376811594203vh;
+    width:  9.292351679771265vw;
+    background-color: #444448c1;
+    position: relative;
+    bottom: 64.5em;
+    left: 18%;
+    display: flex;
+    align-items: center;
+    font-family: 'Arial', sans-serif, bold;
+    color: white;
+    border-radius: 5px;
+    animation: pulse 0.7s infinite;
+    animation-direction: alternate;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+    font-size: 13px;
+}
+
+.futebol img{
+    padding: 0.5em;
+}
+
+footer{
+    filter: brightness(80%);
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 80%;
+    display: table;
+    width: 100%;
+    padding: 100px 0;
+    background-attachment: fixed;
+    position:absolute;
+    
+    
+}
+
+.contato{
+    width: 100%;
+    height: 50vh;
+    background-color: #FFDDDD;
+    position: relative;
+    bottom: 5em;
+}
+
+footer h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'DotGothic16', sans-serif, bold;
+    color: #31676F;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.contato p{
+    display: flex;
+    justify-content: center;
+    font-family: 'DotGothic16', sans-serif, bold;
+    font-size: 28px;
+    color:black;
+    padding-bottom: 0.5em;
+}
+
+#email{
+    position: relative;
+    top: 5%;
+    left: 15%;
+}
+
+#envieEmail{
+    color: #31676F;
+    font-size: 15px;
+}
+
+#gmail{
+    color: black;
+    font-size: 15px;
+}
+
+.detailsEmail{
+    position: relative;
+    right: 33%;
+    top: 5%;
+}
+
+#numero{
+    color: black;
+    font-size: 15px;
+}
+
+#contateme{
+    color: #31676F;
+    font-size: 15px;
+}
+
+.telefoneContainer img{
+    position: relative;
+    left: 48%;
+    bottom: 6.5em;
+}
+
+.telefoneDetails{
+    position: relative;
+    bottom: 6.5em;
+}
+
+#onde{
+    color: #31676F;
+    font-size: 15px;
+}
+
+#sp-sp{
+    color: black;
+    font-size: 15px;
+}
+
+.mapDetails{
+    position: relative;
+    bottom: 13.5em;
+    left: 30%;
+}
+
+.mapaContainer img{
+    position: relative;
+    left: 78%;
+    bottom: 13.5em;
+}
+
+.contato a{
+    text-decoration: none;
+}
+
+
+
+
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-transform: scale(1);
+        -webkit-filter: brightness(40%);
+    }
+    100% {
+        -webkit-transform: scale(1.1);
+        -webkit-filter: brightness(75%);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        filter: brightness(100%);
+    }
+    100% {
+        transform: scale(1.1);
+        filter: brightness(150%);
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+
+    .frase{
+        position: relative;
+        right:7%;
+        
+                
+    }
+
+    .navzinha img{
+        position: relative;
+        right: 65%;
+        height: 17px;
+    }
+
+    .navzinha p{
+        position: relative;
+        left: 3%;
+        font-size: 11px;
+    }
+    
+    .alerta p{
+        font-size: 0.6em;
+    }
+
+    
+
+    .navzinha p{
+        position: relative;
+        left: 3%;
+        font-size: 13px;
+    }
+
+    .formacao p{
+        font-size: 0.65em;
+    }
+
+    .formacao span{
+        font-size: 0.65em;
+    }
+
+    #descricao{
+        font-size: 0.65em;
+        position: relative;
+        
+    }
+
+    #data{
+        font-size: 0.65em;
+    }
+
+    .foto img{
+        height: 80px;
+        width: 90px;
+    }
+
+    .foto2 img{
+        height: 80px;
+        width: 90px;
+    }
+
+    .formacaoSec p{
+        font-size: 0.65em;
+    }
+
+    .skills p{
+        font-size: 0.65em;
+    }
+
+    .jogos p{
+        font-size: 0.85em;
+    }
+    
+    .lado p{
+        font-size: 0.6em;
+    }
+
+    #idiomas{
+        font-size: 0.68em;
+    }
+
+    #ingles{
+        font-size: 0.68em;
+    }
+
+    #espanhol{
+        font-size: 0.68em;
+    }
+
+    #port{
+        font-size: 0.68em;
+    }
+
+    .lado img{
+        height: 25px;
+    }
+
+    #pScrum{
+        font-size: 0.68em;
+        padding-top: 1.5em;
+    }
+
+    #kan{
+        font-size: 0.68em;
+        position: relative;
+        
+    }
+
+    #met{
+        font-size: 0.78em;
+        position: relative;
+        bottom: 6em;
+        left: 4%;
+    }
+
+    .areaMet{
+        position: relative;
+        bottom: 5.5em;
+    }
+
+    #metodo{
+        position: relative;
+        bottom: 5em;
+    }
+
+    #idiomas{
+        font-size: 1em;
+        position: relative;
+        bottom: 10em;
+    }
+
+    .idi img{
+       font-size: 1em;
+    }
+
+   
+
+    #certF{
+        font-size: 0.8em;
+    }
+
+    #cert{
+        position: relative;
+        font-size: 1em;
+    }
+
+    .areaCert{
+        position: relative;
+        bottom: 11em;
+    }
+
+    .soft p{
+        font-size: 0.65em;
+
+    }
+
+    .habilt ul li{
+        font-size: 0.65em;
+
+    }
+
+
+
+    .hobbie img{
+        height: 20px;
+    }
+
+    .game{
+        position: relative;
+        top: 32%;
+    }
+
+    .natureza{
+        position: relative;
+        bottom: 18em;
+    }
+    
+    .energia{
+        position: relative;
+        bottom: 5.4em;
+    }
+
+    .mente{
+        position: relative;
+        bottom: 3em;
+    }
+
+    .hobbie{
+        position: relative;
+        top: 20%;
+        
+    }
+
+    .areaEsquerda{
+        position: relative;
+        bottom: 0.8em;
+    }
+
+    .soft a{
+        font-size: 0.65em;
+    }
+
+    .projetos p{
+        font-size: 0.65em;
+    }
+
+    .projetos h1{
+        font-size: 0.85em;
+    }
+
+    .projetos h3{
+        font-size: 0.75em;
+    }
+
+    .btn{
+        font-size: 0.75em;
+        width: 15vw;
+    }
+
+    .projects{
+        position: relative;
+        
+        bottom: 21em;
+    }
+
+    .contato h2{
+        font-size: 0.95em;
+    }
+
+    .contato p{
+        font-size: 1em;
+    }
+
+    .emailContainer p{
+        font-size: 0.75em;
+    }
+
+    .fourthCv{
+        width: 13vw;
+        position: relative;
+        bottom: 45%;
+    }
+    .projetosFundo {
+        width: 107vw;
+        
+    }
+
+    footer{
+        width: 107vw;
+    }
+}
+
+@media screen  and (min-width: 1000px) and (max-width: 1118px) {
+
+    
+
+    .projetosFundo {
+        width: 107vw;
+        
+    }
+
+    footer{
+        width: 107vw;
+    }
+
+    .frase{
+        position: relative;
+        right: 3%;
+    }
+
+    .alerta p{
+        font-size: clamp(0.6em, 0.85em + 1vw, 0.9em);
+    }
+    
+    
+
+    .formacao p{
+        font-size: 0.65em;
+    }
+
+    .formacao span{
+        font-size: 0.65em;
+    }
+
+    #descricao{
+        font-size: 0.65em;
+        position: relative;
+        
+    }
+
+    #data{
+        font-size: 0.65em;
+    }
+
+    .foto img{
+        height: 80px;
+        width: 90px;
+    }
+
+    .foto2 img{
+        height: 80px;
+        width: 90px;
+    }
+
+    .formacaoSec p{
+        font-size: 0.65em;
+    }
+
+    .skills p{
+        font-size: 0.65em;
+    }
+
+    .jogos p{
+        font-size: 0.85em;
+    }
+    
+    .lado p{
+        font-size: 0.6em;
+    }
+
+    #idiomas{
+        font-size: 0.68em;
+    }
+
+    #ingles{
+        font-size: 0.68em;
+    }
+
+    #espanhol{
+        font-size: 0.68em;
+    }
+
+    #port{
+        font-size: 0.68em;
+    }
+
+    .lado img{
+        height: 25px;
+    }
+
+    #pScrum{
+        font-size: 0.68em;
+        padding-top: 1.5em;
+    }
+
+    #kan{
+        font-size: 0.68em;
+        position: relative;
+        
+    }
+
+    #met{
+        font-size: 0.78em;
+        position: relative;
+        bottom: 6em;
+        left: 4%;
+    }
+
+    .areaMet{
+        position: relative;
+        bottom: 5.5em;
+    }
+
+    #metodo{
+        position: relative;
+        bottom: 5em;
+    }
+
+    #idiomas{
+        font-size: 1em;
+        position: relative;
+        bottom: 10em;
+    }
+
+    .idi img{
+       font-size: 1em;
+    }
+
+   
+
+    #certF{
+        font-size: 0.8em;
+    }
+
+    #cert{
+        position: relative;
+        font-size: 1em;
+    }
+
+    .areaCert{
+        position: relative;
+        bottom: 11em;
+    }
+
+    .soft p{
+        font-size: 0.65em;
+
+    }
+
+    .habilt ul li{
+        font-size: 0.65em;
+
+    }
+
+    .hobbie img{
+        height: 20px;
+    }
+
+    .game{
+        position: relative;
+        top: 32%;
+    }
+
+    .natureza{
+        position: relative;
+        bottom: 18em;
+        
+    }
+    
+    .energia{
+        position: relative;
+        bottom: 5.4em;
+    }
+
+    .mente{
+        position: relative;
+        bottom: 3em;
+    }
+
+    .hobbie{
+        position: relative;
+        top: 20%;
+    }
+
+    .areaEsquerda{
+        position: relative;
+        bottom: 0.8em;
+    }
+
+    .soft a{
+        font-size: 0.65em;
+    }
+
+    .projetos p{
+        font-size: 0.65em;
+    }
+
+    .projetos h1{
+        font-size: 0.85em;
+    }
+
+    .projetos h3{
+        font-size: 0.75em;
+    }
+
+    .btn{
+        font-size: 0.75em;
+        width: 15vw;
+    }
+
+    .projects{
+        position: relative;
+        
+        bottom: 21em;
+    }
+
+    .contato h2{
+        font-size: 0.95em;
+    }
+
+    .contato p{
+        font-size: 1em;
+    }
+
+    .emailContainer p{
+        font-size: 0.75em;
+    }
+
+    .fourthCv{
+        width: 13vw;
+        position: relative;
+        bottom: 45%;
+    }
+
+    html{
+        width: 100%;
+    }
+
+
+}
+
+[data-anime]{
+    opacity: 0;
+    transition: .3s;
+}
+
+[data-anime="left"]{
+    transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime="rigth"]{
+    transform: translate3d(50px, 0, 0);
+}
+
+[data-anime].animate{
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+
+@media screen  and (min-width: 1550px) and (max-width: 1700px )  {
+
+    .text p{
+        font-size: calc(0.60em + 0.57vw);
+        
+    }
+
+    .text span{
+
+        font-size: calc(0.7em + 0.6vw);
+    }
+
+    .msn {
+        font-size: 1em;
+    }
+
+    .formacao p{
+        font-size: 1.2em;
+    }
+
+    .formacao span{
+        font-size: 1.2em;
+    }
+
+    #descricao{
+        font-size: 0.9em;
+        position: relative;
+        left: 46%;
+        bottom: 110%;
+    }
+    
+    #data{
+        font-size: 1.2em;
+    }
+
+    .navMsn p {
+        font-size: calc(0.62em + 0.62vw);
+    }
+
+    .soft{
+        position: relative;
+        bottom: 160%;
+    }
+
+    .jogos p{
+        font-size: calc(0.53em + 0.53vw);
+    }
+
+    .habilt{
+        position: relative;
+        bottom: 95%;
+    }
+
+    .formacaoSec p{
+        font-size: 1.2em;
+    }
+
+    #dataE{
+        font-size: 1em;
+    }
+
+    #lembrete{
+        font-size: 1.2em;
+        margin-top: 1em;
+    }
+
+    #hrBaixo{
+        position: relative;
+        top: 2em;
+    }
+
+    .areaEsquerda{
+        position: relative;
+        top: 0.6em;
+    }
+    
+    .soft a{
+        position: relative;
+        bottom: 128%;
+    }
+
+    html{
+        width: 100%;
+    }
+
+    
+    
+}
+
+@media screen  and (min-width: 1700px) and (max-width: 2300px )  {
+
+
+    footer{
+        height: 58vh;
+    }
+
+    .text p{
+        font-size: calc(0.64em + 0.64vw);
+    }
+
+    .text span{
+
+        font-size: calc(0.7em + 0.7vw);
+    }
+
+    .formacao p{
+        font-size: 1.3em;
+    }
+
+    .formacao span{
+        font-size: 1.3em;
+        margin-left: 0.8em;
+        
+    }
+
+    .formacao img{
+        height: 28px;
+    }
+
+    #desc{
+        height: 23px;
+    }
+
+    #descricao{
+        font-size: 1.1em;
+        position: relative;
+        left: 43%;
+        bottom: 100%;
+    }
+    
+    #data{
+        font-size: 1.2em;
+    }
+
+    .navMsn p {
+        font-size: calc(0.62em + 0.62vw);
+    }
+
+    .formacaoSec p{
+        font-size: 1.3em;
+    }
+
+    .formacaoSec img{
+        height: 28px;
+    }
+
+    #dataE{
+        font-size: 1.1em;
+        
+    }
+
+    #lembrete{
+        font-size: 1.1em;
+        position: relative;
+        bottom: 29%;
+    }
+
+    #hrBaixo{
+        position: relative;
+        top: 13%;
+    }
+
+    .skills p{
+        font-size: 0.98em;
+    }
+
+    .lado{
+        position: relative;
+        bottom: 165%;
+    }
+
+    .areaMet img{
+        height: 40px ;
+    }
+
+    #met{
+        font-size: 1.5em;
+    }
+
+    #kan{
+        font-size: 1.3em;
+    }
+
+    #pScrum{
+        font-size: 1.3em;
+    }
+
+    #scrum{
+        position: relative;
+        top: 3.6em;
+    }
+
+    #cert{
+        position: relative;
+        left: 28%;
+        bottom: 9.5em;
+        font-size: 1.5em;
+    }
+
+    #certF{
+        position: relative;
+        left: 30%;
+        height: 36px;
+    }
+
+    .areaCert p{
+        position: relative;
+        bottom: 13em;
+        right: 1.5em;
+    }
+
+    .areaCert{
+        position: relative;
+        bottom: 9em;
+    }
+
+    #metodo{
+        height: 40px ;
+    }
+
+    #idiomasF{
+        height: 36px;
+        position: relative;
+        margin-bottom: 2em;
+    }
+
+    #idiomas {
+        font-size: 1.5em;
+    }
+
+    .testeIdi{
+        display: inline;
+    }
+    
+    #eua{
+        height: 36px;
+        
+    }
+
+    #ingles{
+        font-size: 1.3em;
+        
+    }
+
+    #espanha{
+        height: 38px;
+    }
+
+    #espanhol{
+        font-size: 1.3em;
+    }
+
+    #brasil{
+        height: 38px;
+    }
+
+    #port{
+        font-size: 1.3em;
+        
+    }
+
+    .jogos p{
+        font-size: 1.3em;
+    }
+
+    .navSteam p{
+        font-size: 1.3em;
+    }
+
+    .navSteam img{
+        height: 28px;
+    }
+
+    .progress{
+        font-size: 1em;
+        margin-bottom: 2.3em;
+    }
+
+    .progress1{
+        font-size: 1em;
+        margin-bottom: 2.3em;
+    }
+
+    .progress2{
+        font-size: 1em;
+        margin-bottom: 2.5em;
+    }
+
+    .progress3{
+    
+        font-size: 1em;
+        margin-bottom: 2.8em;
+    }
+    .progress4{
+        font-size: 1em;
+        margin-bottom: 2.8em;
+    }
+
+    .progress5{
+        font-size: 1em;
+        margin-bottom: 2.8em;
+    }
+
+    .progress6{
+        font-size: 1em;
+        margin-bottom: 2.8em;
+    }
+
+    .progress7{
+        font-size: 1em;
+        margin-bottom: 2.8em;
+    }
+
+    .progress8{
+        font-size: 1em;
+        margin-bottom: 2.8em;
+    }
+
+    .progress9{
+        font-size: 1em;
+        margin-bottom: 2.8em;
+    }
+
+    .progress10{
+        font-size: 1em;
+        margin-bottom: 2.8em;
+    }
+
+    .progress11{
+        font-size: 1em;
+        margin-bottom: 2.8em;
+    }
+
+    .progress12{
+        font-size: 1em;
+        margin-bottom: 2.8em;
+    }
+
+    .mente{
+        position: relative;
+        top: 3.3em;
+    }
+
+    .energia{
+        position: relative;
+        top: 0.7em;
+    }
+
+    .habilt ul li{
+        position: relative;
+        font-size: 1.3em;
+    }
+
+    .habilt{
+        position: relative;
+        bottom: 40em;
+    }
+
+    #perso{
+        font-size: 1em;
+    }
+
+    .hobbie{
+        position: relative;
+        bottom:6em;
+    }
+
+    .hobbie p{
+        font-size: 1.2em;
+    }
+
+    .hobbie img{
+        height: 38px;
+    }
+
+    .areaEsquerda{
+        position: relative;
+        top: 1.5em;
+    }
+
+    #hob{
+        font-size: 1em;
+        position: relative;
+        bottom: 47em;
+        
+    }
+
+    .soft a{
+        font-size: 0.9em;
+        position: relative;
+        bottom: 135%;
+    }
+
+    .projects p{
+        font-size: 1.2em;
+    }
+
+    .projects h1{
+        font-size: 1.8em;
+    }
+
+    .projects h3{
+        font-size: 1.8em;
+    }
+
+    .projects{
+        position: relative;
+        bottom: 48%;
+    }
+
+    #circulo{
+        position: relative;
+        left: 46.6%;
+    }
+    #circulo2{
+        position: relative;
+        left: 46.6%;
+    }
+    #circulo3{
+        position: relative;
+        left: 46.6%;
+    }
+    #circulo4{
+        position: relative;
+        left: 46.6%;
+    }
+
+    .btn{
+        position: relative;
+        right:5%;
+    }
+
+    footer h2{
+        font-size: 1.8em;
+    }
+
+    .contato p{
+        font-size: 2em;
+    }
+
+    #envieEmail{
+        font-size: 1.8em;
+    }
+
+    #gmail{
+        font-size: 1.5em;
+    }
+
+    #contateme{
+        font-size: 1.8em;
+    }
+
+    #numero{
+        font-size: 1.5em;
+    }
+
+    #onde{
+        font-size: 1.8em;
+    }
+
+    #sp-sp{
+        font-size: 1.5em;
+    }
+
+
+    .mapaContainer{
+        position: relative;
+        bottom: 3em;
+    }
+
+    .fourthCv{
+        position: relative;
+        bottom: 15em;
+        left: 43.4%;
+    }
+
+    html{
+        width: 100%;
+        
+    }
+    
+}
+@media screen  and (min-width: 2300px) and (max-width: 2900px )  {
+
+    .text p{
+        font-size: calc(0.84em + 0.74vw);
+    }
+
+    .text span{
+
+        font-size: calc(0.8em + 0.8vw);
+    }
+
+    .navzinha p{
+        font-size: calc(0.7em + 0.7vw);
+    }
+
+    html{
+        width: 100%;
+    }
+    
+}
+
+@media screen  and (min-width: 1440px) and (max-height: 900px )  {
+
+    html{
+        width: 100%;
+    }
+    
+}
